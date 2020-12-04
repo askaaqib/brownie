@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased](https://github.com/eth-brownie/brownie)
 
+## [1.12.2](https://github.com/eth-brownie/brownie/tree/v1.12.2) - 2020-12-04
+### Added
+- Support for [EIP 1967](https://eips.ethereum.org/EIPS/eip-1967) proxy pattern in `Contract.from_explorer` ([#876](https://github.com/eth-brownie/brownie/pull/876))
+
 ## [1.12.1](https://github.com/eth-brownie/brownie/tree/v1.12.1) - 2020-11-28
 ### Fixed
 - Append zero-bytes when expected size of memory exceeds actual size ([#868](https://github.com/eth-brownie/brownie/pull/868))
